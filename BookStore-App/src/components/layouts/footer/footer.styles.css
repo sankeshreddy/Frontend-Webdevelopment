@@ -1,0 +1,67 @@
+.footer-container{
+    
+    padding: 4rem 0;
+background: antiquewhite;
+    
+}
+.footer-container h2{
+   
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer-container p{
+    
+    font-size: 1rem;
+}
+
+.footer-form{
+    /* padding-top: 2rem; */
+    width: 100%;
+    
+}
+
+.form-group{
+    padding: 1rem 0;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.form-label{
+    display:inline-block;
+    
+    padding-bottom: 10px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: auto;
+}
+
+.form-submit{
+   
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color-bright);
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    border: none;
+    font-family: Chivo Mono;
+    font-size: 1rem;
+    
+}
+
+.form-submit:hover{
+    
+    background-color: #222;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,83 @@
+.showcase-container{
+    height: 100vh;
+    width: auto;
+    background-image: url('../../../assets/showcase-bg.jpg');
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.overlay{
+    height: 100%;
+    width: fit-content;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+}
+
+.showcase-content{
+    width: fit-content;
+    z-index: 1;
+    margin: 13rem;
+    
+}
+
+.showcase-content h2{
+    color: #fff;
+
+    font-size: 3rem;
+}
+
+
+.showcase-content span{
+    font-family: Chivo Mono;
+}
+
+@media screen and (min-width: 350px){
+    .showcase-container{
+        height: 100vh;
+        width: auto;
+        /* background-image: url('../../../assets/showcase-bg.jpg'); */
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .showcase-content h2{
+        color: #fff;
+        font-size: 2rem;
+        
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .showcase-content h2{
+        color: #fff;
+        font-size: 1.1rem;
+        padding-top: 6rem; 
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+   
+    .showcase-content h2{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .showcase-content h2{
+        color: #fff;
+        font-size: 1.3rem;
+       
+    }
+}
+@media screen and (min-width: 1500px){
+    .showcase-content h2{
+        color: #fff;
+        font-size: 1.3rem;
+        margin-right: 10rem;
+    }
+} 

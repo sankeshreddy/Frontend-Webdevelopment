@@ -1,0 +1,35 @@
+.product-listing-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* .listing-container{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+} */
+
+@media screen and (min-width:280px){
+    .listing-container{
+        padding-top: 4rem;
+        
+    }
+    
+}
+@media screen and (min-width:768px){
+    .listing-container{
+        padding-top: 4rem;
+       
+    }
+    
+}
+@media screen and (min-width:1200px){
+    
+    .listing-container{
+        padding-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
