@@ -60,8 +60,26 @@ background: antiquewhite;
     
     background-color: #222;
 }
-.copyright{
+/* .copyright{
     text-align: center;
     font-weight: bold;
+} */
+
+@media screen and (min-width:280px){
+    .copyright{
+        
+        font-weight: bold;
+    }
+
+    .footer-container p{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
 }
 
+@media screen and (min-width:1200px){
+    .copyright{
+        text-align: center;
+        font-weight: bold;
+    }
+}

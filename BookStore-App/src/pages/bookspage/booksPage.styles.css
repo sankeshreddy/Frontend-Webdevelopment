@@ -29,9 +29,10 @@
 
 @media screen and (min-width:1200px){
     .search-container{
-        width: 90%;
+        /* width: 90%;
         margin: auto;
-        padding-top: 5%;
+        padding-top: 5%; */
+        padding-bottom: 3rem;
     }
     
 }
