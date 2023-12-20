@@ -61,7 +61,7 @@
         border-radius: 1rem;
     } */
     .cart-item{
-        display: flex;
+        display: flow;
         padding: 2rem;
         margin: 2rem 0;
         border: 1px solid #555;

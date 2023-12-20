@@ -16,7 +16,6 @@ const Login= () => {
                         <div className="content-wrapper">
                             <h2>Login</h2>
                             <p>Sign in with email and password.</p>
-
                             <AuthForm buttonName="Login" />
                         </div>
                     </div>

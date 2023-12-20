@@ -48,6 +48,21 @@
         
     }
 }
+@media screen and (min-width:768px){
+    .search-input-form-container{
+        /* display: flex;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 20px; */
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 20px;
+        /* width: 50%; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (min-width:1200px){
     .search-input-form-container{
         /* display: inline-block;
@@ -65,5 +80,12 @@
     
     .light-box-shadow{
         box-shadow: 4px 4px 15px #ccc;
+    }
+    .search-input{
+        flex: 1;
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
+        padding-left: 10px;
     }
 }

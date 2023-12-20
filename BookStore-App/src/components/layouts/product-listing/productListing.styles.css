@@ -20,7 +20,9 @@
 @media screen and (min-width:768px){
     .listing-container{
         padding-top: 4rem;
-       
+        display: grid;
+        justify-content: center;
+        gap: 2rem;
     }
     
 }
