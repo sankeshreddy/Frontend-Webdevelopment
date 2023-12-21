@@ -64,3 +64,51 @@
 .relative{
     position: relative;
 }
+
+@media screen and (min-width:280px){
+    .logo{
+        font-size: 1rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: Chivo Mono;
+        font-weight: 700;
+    }
+    .nav-links, .nav-links-dark{
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.7rem;
+        padding-left: 20px;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+    
+    .nav-links-dark{
+        color: #333;
+    }
+}
+
+@media screen and (min-width:768px){
+    .logo{
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: Chivo Mono;
+        font-weight: 700;
+    }
+    .nav-links, .nav-links-dark{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        padding-left: 20px;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+    .nav-links-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .nav-links-dark{
+        color: #333;
+    }
+}
