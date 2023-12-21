@@ -43,7 +43,7 @@ alert("Query Submited.we will contact you");
                         <textarea className="form-input" name="message" id="query" placeholder='Type your Query'></textarea>
                     </div>
 
-                    <div className="form-group">
+                    <div className="form-group-btn">
                         <input  type="submit" value="Submit" className="form-submit" />
                     </div>
                 </form>

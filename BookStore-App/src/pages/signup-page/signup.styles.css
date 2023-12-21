@@ -32,6 +32,11 @@
     margin-top: 1.2rem;
     width: 100%;
 }
+.content-wrapper p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 .content-wrapper h2{
     padding-bottom: 1rem;
@@ -118,7 +123,8 @@
         margin-top: 3rem;
         box-shadow: 4px 4px 15px #ccc; */
         /* background: antiquewhite; */
-        box-shadow: 10px 10px 25px #120202;
+        box-shadow: 5px 5px 15px #120202;
+       
         /* margin: 0;
         position: absolute;
         top: 50%;
