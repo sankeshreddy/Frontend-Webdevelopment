@@ -14,9 +14,9 @@ const Login= () => {
                 <div className="signup-content-container">
                     <div className="container">
                         <div className="content-wrapper">
-                            <h2>Login</h2>
+                            {/* <h2>Login</h2> */}
                             <p>Sign in with email and password.</p>
-                            <AuthForm buttonName="Login" />
+                            <AuthForm className="login-btn" buttonName="Login" />
                         </div>
                     </div>
                 </div>

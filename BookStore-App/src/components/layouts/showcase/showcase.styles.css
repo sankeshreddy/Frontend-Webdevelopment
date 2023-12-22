@@ -1,11 +1,11 @@
-.showcase-container{
-    height: 100vh;
+/* .showcase-container{
+    height: 75vh;
     width: auto;
     background-image: url('../../../assets/showcase-bg.jpg');
     position: relative;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .overlay{
     height: 100%;
@@ -30,28 +30,43 @@
 
 @media screen and (min-width: 350px){
     .showcase-container{
+        height: 75vh;
+        width: auto;
+        background-image: url('../../../assets/showcase-bg.jpg');
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        overflow-y: hidden;
+    }
+    .showcase-content h2{
+        color: #fff;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .showcase-content{
+        /* width: fit-content;
+        z-index: 1;
+        margin: 15rem;
+        position: absolute; */
+        position: relative;
+        top: 40%;
+        bottom: 60%;
+        width: 90%;
+        text-align: justify;
+        line-break: anywhere;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .showcase-container{
         height: 100vh;
         width: auto;
         background-image: url('../../../assets/showcase-bg.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
+        overflow-y: hidden;
     }
-    .showcase-content h2{
-        color: #fff;
-        font-size: 1rem;
-        
-    }
-    .showcase-content{
-        width: fit-content;
-        z-index: 1;
-        margin: 15rem;
-        position: absolute;
-    }
-}
-
-@media screen and (min-width: 768px){
-    
     .showcase-content h2{
         color: #fff;
         font-size: 1.1rem;
@@ -66,7 +81,16 @@
 }
 
 @media screen and (min-width: 1024px){
-   
+
+    .showcase-container{
+        height: 100vh;
+        width: auto;
+        background-image: url('../../../assets/showcase-bg.jpg');
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        overflow-y: hidden;
+    }
     .showcase-content h2{
         color: #fff;
         font-size: 1.3rem;
@@ -80,6 +104,15 @@
 }
 
 @media screen and (min-width: 1200px){
+    .showcase-container{
+        height: 100vh;
+        width: auto;
+        background-image: url('../../../assets/showcase-bg.jpg');
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        
+    }
     .showcase-content h2{
         color: #fff;
         font-size: 1.3rem;
@@ -93,6 +126,14 @@
     }
 }
 @media screen and (min-width: 1500px){
+    .showcase-container{
+        height: 100vh;
+        width: auto;
+        background-image: url('../../../assets/showcase-bg.jpg');
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
     .showcase-content h2{
         color: #fff;
         font-size: 1.3rem;

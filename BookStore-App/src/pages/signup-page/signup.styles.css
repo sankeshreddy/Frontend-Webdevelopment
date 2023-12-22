@@ -7,7 +7,9 @@
 .form-label {
     display: inline-block;
     padding-bottom: 10px;
+    font-size: large;
 }
+
 .signup-img-container{
     width:100%;
     overflow: hidden;
@@ -56,27 +58,22 @@
     }
     .signup-content-container{
         
-        /* display: block; */
-        /* background: antiquewhite; */
+       
         box-shadow: 10px 10px 25px #120202;
-        /* margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        margin-top: 6rem; */
-        /* margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
-  /* margin: 0; */
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 85%;
-  margin-top: 23rem;
-  /* margin-left: 0.6rem; */
+        
+  /* position: relative; */
+  /* top: 50%;
+  left: 50%; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  /* width: 85%; */
+  margin: 120px 30px 100px;
+  
+    }
+    .content-wrapper p{
+        text-align: justify;
+        font-weight: bolder;
+        font-size: 1rem;
     }
 }
 
@@ -113,6 +110,11 @@
         width: 50%;
         margin-top: 1.2rem;
     }
+    .content-wrapper p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width: 1200px){
     .signup-content-container{
@@ -124,7 +126,7 @@
         box-shadow: 4px 4px 15px #ccc; */
         /* background: antiquewhite; */
         box-shadow: 5px 5px 15px #120202;
-       
+      
         /* margin: 0;
         position: absolute;
         top: 50%;
@@ -135,6 +137,10 @@
         margin-top: 0.7rem; */
         
     }
-    
+    .content-wrapper p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
 }
 

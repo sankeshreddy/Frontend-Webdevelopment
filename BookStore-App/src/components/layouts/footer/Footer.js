@@ -24,8 +24,9 @@ alert("Query Submited.we will contact you");
 
     return (
         <section className="footer-container">
+            <hr className="footer-hr"></hr>
             <div className="container">
-                <h2>If you have any queries feel free to ask here.</h2>
+                <h2>If You Have Any Queries Feel Free To Ask Here.</h2>
 
                 <form onSubmit={handleSubmit} ref={form} className="footer-form">
                     <div className="form-group">
@@ -48,7 +49,7 @@ alert("Query Submited.we will contact you");
                     </div>
                 </form>
 
-                <p class = "copyright">&copy; 2023 BookStore. All Rights Reserved.</p>
+                <p class = "copyright">&copy; 2023 BookStore. All Rights Reserved</p>
             </div>
         </section>
     )

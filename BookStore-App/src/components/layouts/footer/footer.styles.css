@@ -4,6 +4,9 @@
 background: antiquewhite;
     
 }
+.footer-hr{
+    border-top: 1rem solid red;
+}
 .footer-container h2{
    
     font-size: 1.5rem;
@@ -16,7 +19,7 @@ background: antiquewhite;
 }
 
 .footer-form{
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     width: 100%;
     
 }
@@ -24,7 +27,7 @@ background: antiquewhite;
 .form-group{
     padding: 0.7rem 0;
     font-weight: bolder;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
 }
 
 .form-label{
@@ -71,9 +74,24 @@ background: antiquewhite;
         font-weight: bold;
     }
 
-    .footer-container p{
-        font-size: 1rem;
-        margin-top: 1rem;
+    /* .footer-container p{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        text-align: justify;
+    } */
+    .footer-container p{ 
+        display: flex; 
+        flex-direction: row; 
+        padding-top: 2rem;
+    } 
+    .footer-container p::before, 
+    .footer-container p::after {
+        content: "";
+        /* font-size: 1.2rem;
+        padding-top: 3rem; */
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
     }
     .footer-container{
     
@@ -82,11 +100,14 @@ background: antiquewhite;
     }
     .form-group-btn{
         text-align: center;
+        padding-top: 2rem;
     }
     .footer-container h2{
    
         font-size: 1rem;
-        text-align: center;
+        text-align: justify;
+        padding-top: 2rem;
+        line-break: anywhere;
     }
 }
 
@@ -97,9 +118,23 @@ background: antiquewhite;
         font-size: 2rem;
     }
 
-    .footer-container p{
+    /* .footer-container p{
         font-size: 1rem;
         margin-top: 1rem;
+    } */
+    .footer-container p{ 
+        display: flex; 
+        flex-direction: row; 
+        padding-top: 2rem;
+    } 
+    .footer-container p::before, 
+    .footer-container p::after {
+        content: "";
+        /* font-size: 1.2rem;
+        padding-top: 3rem; */
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
     }
     .footer-container{
     
@@ -123,14 +158,26 @@ background: antiquewhite;
         padding: 4rem 0;
     background: center;    
     }
-    .footer-container p{
+    .footer-container p{ 
+        display: flex; 
+        flex-direction: row; 
+        padding-top: 2rem;
         font-size: 1.2rem;
-        margin-top: 3rem;
+    } 
+    .footer-container p::before, 
+    .footer-container p::after {
+        content: "";
+        /* font-size: 1.2rem;
+        padding-top: 3rem; */
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
     }
+    
     .footer-container h2{
    
         font-size: 1.5rem;
         text-align: center;
-        
+        /* padding-top: 4rem; */
     }
 }
