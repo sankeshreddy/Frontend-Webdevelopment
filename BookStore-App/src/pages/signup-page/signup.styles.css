@@ -1,9 +1,11 @@
+
 /* .signup-container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
 } */
+
 .form-label {
     display: inline-block;
     padding-bottom: 10px;
@@ -13,9 +15,11 @@
 .signup-img-container{
     width:100%;
     overflow: hidden;
+    
 }
 .signup-img-container::-webkit-scrollbar {
     display: none;
+    
 }
 
 .signup-img-container img{
@@ -45,7 +49,7 @@
     font-size: 2rem;
     /* padding-top: 1rem; */
 }
-@media screen and (min-width: 280px){
+@media screen and (min-device-width: 280px) and (max-device-width: 345px){
     .content-wrapper{
         position: relative;
         margin-top: 1.2rem;
@@ -74,11 +78,12 @@
         text-align: justify;
         font-weight: bolder;
         font-size: 1rem;
+        line-break: anywhere;
     }
 }
 
-/* @media screen and (min-width: 414px){
-    .signup-content-container{
+@media screen and (min-width: 350px){
+    /* .signup-content-container{
         
         
         background: antiquewhite;
@@ -93,8 +98,39 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+    } */
+    
+    .content-wrapper{
+        position: relative;
+        margin-top: 1.2rem;
+        width: 100%;
     }
-} */
+    .content-wrapper h2{
+        /* padding-bottom: 1rem; */
+        font-size: 2rem;
+        /* padding-top: 1rem; */
+    }
+    .signup-content-container{
+        
+      
+        box-shadow: 10px 10px 25px #120202;
+        
+  /* position: relative; */
+  /* top: 50%;
+  left: 50%; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  /* width: 85%; */
+  margin: 80px 30px 100px;
+  
+    }
+    .content-wrapper p{
+        /* text-align: justify; */
+        font-weight: bolder;
+        font-size: 1rem;
+       
+    }
+}
 
 @media screen and (min-width:768px){
     .signup-content-container{
@@ -107,7 +143,7 @@
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        width: 50%;
+        width: 75%;
         margin-top: 1.2rem;
     }
     .content-wrapper p{
@@ -117,6 +153,7 @@
     }
 }
 @media screen and (min-width: 1200px){
+   
     .signup-content-container{
         /* width:50%;
         margin-left: 20rem;
@@ -126,6 +163,7 @@
         box-shadow: 4px 4px 15px #ccc; */
         /* background: antiquewhite; */
         box-shadow: 5px 5px 15px #120202;
+        width: auto;
       
         /* margin: 0;
         position: absolute;
@@ -138,9 +176,9 @@
         
     }
     .content-wrapper p{
-        text-align: center;
+        text-align: justify;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
 
