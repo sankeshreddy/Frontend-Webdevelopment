@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const CartItemsContainer = () => {
     const { cartItems, totalAmount } = useContext(CartContext);
-    const stripeKey = 'pk_test_VvWjqy13EI2MSDgDxy3b5jbx00KrrL41yi';
+    const stripeKey = 'pk_test_51OQreySGRRWwGUlLComa3ZZPO3rsxGHlefaAdZWOVAENq55kCkArjiH29MBE8rsX9sLLhzlKUmRzkso8vr6U3gH300JRd8k4RC';
     const navigate = useNavigate();
 
     const onToken = (token) => {
@@ -20,9 +20,10 @@ const CartItemsContainer = () => {
     return (
         <section className="cart-items-container">
             <div className="container">
+                 
                 {totalAmount === 0 ? (
                     <h2>Currently your cart is empty please add some books 😊
-                         {/* <link to="/"className="logo">Book<span className="text-primary">Store</span></link> */}
+                        {/* <link to="/"className="logo">Book<span className="text-primary">Store</span></link> */}
                     </h2>
                     
                 ):(

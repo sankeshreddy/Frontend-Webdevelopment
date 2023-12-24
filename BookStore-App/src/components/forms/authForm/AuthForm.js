@@ -19,7 +19,7 @@ const AuthForm = ({ buttonName }) => {
             .then(() => {
                 navigate('/')
             })
-            alert("Signin Suceess")
+           
             .catch((err) => console.log(err));
 
         } else {
@@ -27,7 +27,7 @@ const AuthForm = ({ buttonName }) => {
             .then((userCredentials)=>{
                userCredentials.user.displayName = username;
 
-               navigate('/');
+               navigate('/login');
             })
             .catch((err)=>{
                 console.log(err);

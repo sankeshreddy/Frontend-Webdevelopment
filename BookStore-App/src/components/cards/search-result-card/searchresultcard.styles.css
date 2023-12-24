@@ -77,3 +77,20 @@
         padding-top: 10px;
     }
 }
+
+@media screen and (min-width:1200px){
+    .cart-item{
+        display: flow;
+        width: 50%;
+        /* padding: 2rem;
+        margin: 2rem 0; */
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        padding-left: 2rem;
+        padding-top: 10px;
+    }
+}
