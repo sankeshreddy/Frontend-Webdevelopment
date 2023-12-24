@@ -96,7 +96,7 @@
 }
 @media screen and (min-width:350px) and (max-width:412px){
     .logo{
-        font-size: 1rem;
+        font-size: 0.6rem;
         color: #fff;
         text-decoration: none;
         font-family: Chivo Mono;
@@ -105,7 +105,7 @@
     .nav-links, .nav-links-dark{
         color: #fff;
         text-decoration: none;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding-left: 20px;
         transition: 0.2s ease-in;
         cursor: pointer;
@@ -113,7 +113,7 @@
     
     .nav-links-dark{
         color: #333;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .nav-links-container{
         display: flex;

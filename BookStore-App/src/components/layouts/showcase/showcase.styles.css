@@ -55,7 +55,7 @@
 }
 @media screen and (min-width: 350px) and (max-width:412px){
     .showcase-container{
-        height: 75vh;
+        height: 100vh;
         width: auto;
         background-image: url('../../../assets/showcase-bg.jpg');
         position: relative;
@@ -82,7 +82,7 @@
 
 @media screen and (min-width:414px){
     .showcase-container{
-        height: 75vh;
+        height: 100vh;
         width: auto;
         background-image: url('../../../assets/showcase-bg.jpg');
         position: relative;
