@@ -14,7 +14,6 @@ const SearchPage = () => {
         let searchValue = [];
 
         searchValue = BookData.filter((data) => data.book_name.toLowerCase().includes(location.state.toLowerCase()));
-
         setSearchResult(searchValue);
     }, [location.state])
 
@@ -24,11 +23,13 @@ const SearchPage = () => {
             
             <div className='search-result-container'>
                 <div className="container">
-                    <h2>Your Search Result</h2>
+                    <h2 className="h2-search">Your Search Result</h2>
 
                     {searchResult.map((result) => (
-                        <SearchResultCard key={result.id} bookData={result} />
+                        <SearchResultCard key={result.id} bookData={result}/>
+                       
                     ))}
+                    
                 </div>
             </div>
 

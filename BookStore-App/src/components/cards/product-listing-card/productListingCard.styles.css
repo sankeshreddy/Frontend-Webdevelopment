@@ -63,13 +63,75 @@ transition: 1s ease;
     background-color: #000;
 } */
 
-@media screen and (min-width:280px){
+@media screen and (min-width:280px) and (max-width:345px){
     .product-listing-card{
         border: 4px solid #000000;
         width: 100%;
         padding: 2rem 2rem;
         /* border-radius: 1rem; */
         margin-bottom: 3rem;
+    }
+    .card-btn-container{
+        width: 75%;
+        /* margin-left: 8rem; */
+        /* display: contents; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product-listing-img-container{
+        width: 100%;
+        height: 15rem;
+        text-align: center;
+        overflow: hidden;
+    }
+    .product-listing-image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: 1s ease;
+    }
+    .product-listing-details-container{
+        padding-top: 2rem;
+        min-height: 10rem;
+        text-align: center;
+    }
+    .product-listing-image:hover{
+        -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+    .product-listing-button{
+        display: inline-block;
+        background-color: var(--primary-color-bright);
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+        font-family: Chivo Mono;
+        text-decoration: none;
+        margin-top: 2rem;
+        transition: 0.2s ease-in;
+    }
+    
+    .product-listing-button:hover{
+        background-color: #000;
+    }
+}
+@media screen and (min-width:350px){
+    .product-listing-card{
+        border: 4px solid #000000;
+        width: 100%;
+        padding: 2rem 2rem;
+        /* border-radius: 1rem; */
+        margin-bottom: 3rem;
+    }
+    .card-btn-container{
+        width: 50%;
+        /* margin-left: 8rem; */
+        /* display: contents; */
+        margin-left: auto;
+        margin-right: auto;
     }
     .product-listing-img-container{
         width: 100%;
@@ -183,9 +245,9 @@ transition: 1s ease;
         padding: 0.5rem 0; 
     }
     .card-btn-container{
-        width: 90%;
-        margin-left: 8rem;
-        display: table;
+        width: auto;
+       display: flex;
+       justify-content: center;
     }
     .product-listing-image:hover{
         -webkit-transform: scale(1.2);
@@ -287,11 +349,11 @@ transition: 1s ease;
         object-fit: contain;
         transition: 1s ease;
     }
-    /* .card-btn-container{
+    .card-btn-container{
         width: 90%;
         margin-left: 8rem;
         display: contents;
-    } */
+    }
     .product-listing-image:hover{
         -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
