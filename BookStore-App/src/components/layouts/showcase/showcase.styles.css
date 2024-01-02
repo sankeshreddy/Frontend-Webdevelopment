@@ -65,7 +65,7 @@
     }
     .showcase-content h2{
         color: #fff;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: left;
         
     }
@@ -92,7 +92,7 @@
     }
     .showcase-content h2{
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
         line-break: auto;
     }
@@ -119,9 +119,9 @@
     }
     .showcase-content h2{
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         padding-top: 5rem; 
-        text-align: center;
+        text-align: justify;
         line-break: auto;
     }
     .showcase-content{

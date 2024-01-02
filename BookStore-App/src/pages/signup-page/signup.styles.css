@@ -125,7 +125,7 @@
   
     }
     .content-wrapper p{
-        /* text-align: justify; */
+        text-align: justify;
         font-weight: bolder;
         font-size: 1rem;
        
