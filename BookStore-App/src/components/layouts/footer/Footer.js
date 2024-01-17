@@ -10,7 +10,7 @@ const Footer = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-alert("Query Submited.we will contact you");
+
         emailjs.sendForm(serviceId, templateId, form.current, publicKey)
         .then((response) => {
             console.log(response.text);
@@ -20,6 +20,8 @@ alert("Query Submited.we will contact you");
         })
 
         e.target.reset();
+
+        
     }
 
     return (

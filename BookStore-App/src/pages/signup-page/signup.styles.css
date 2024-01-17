@@ -49,7 +49,7 @@
     font-size: 2rem;
     /* padding-top: 1rem; */
 }
-@media screen and (min-device-width: 280px) and (max-device-width: 345px){
+@media screen and (min-width: 280px) and (max-width: 345px){
     .content-wrapper{
         position: relative;
         margin-top: 1.2rem;
@@ -82,7 +82,7 @@
     }
 }
 
-@media screen and (min-width: 350px) and (max-width:412px){
+@media screen and (min-width: 350px) {
     /* .signup-content-container{
         
         
@@ -132,34 +132,7 @@
     }
 }
 
-@media screen and (min-width:414px){
-    
-    .content-wrapper{
-        position: relative;
-        margin-top: 1.2rem;
-        width: 100%;
-    }
-    .content-wrapper h2{
-        /* padding-bottom: 1rem; */
-        font-size: 2rem;
-        /* padding-top: 1rem; */
-    }
-    .signup-content-container{
-        
-      
-        box-shadow: 10px 10px 25px #120202;
-        
-  
-  margin: 80px 30px 100px;
-  
-    }
-    .content-wrapper p{
-        /* text-align: justify; */
-        font-weight: bolder;
-        font-size: 1rem;
-       
-    }
-}
+
 @media screen and (min-width:768px){
     .signup-content-container{
         /* background: antiquewhite; */
