@@ -22,11 +22,6 @@
     
 }
 
-.signup-img-container img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
 
 /* .signup-content-container{
     width:100%;
@@ -52,8 +47,9 @@
 @media screen and (min-width: 280px) and (max-width: 345px){
     .content-wrapper{
         position: relative;
-        margin-top: 1.2rem;
+        margin-top: 1rem;
         width: 100%;
+        margin-bottom: 1rem;
     }
     .content-wrapper h2{
         /* padding-bottom: 1rem; */
@@ -61,7 +57,7 @@
         /* padding-top: 1rem; */
     }
     .signup-content-container{
-        
+        background:beige;
        
         box-shadow: 10px 10px 25px #120202;
         
@@ -75,18 +71,22 @@
   
     }
     .content-wrapper p{
-        text-align: justify;
+        text-align: center;
         font-weight: bolder;
-        font-size: 1rem;
+        font-size: 0.6rem;
         line-break: anywhere;
     }
+    .signup-img-container img{
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 350px) {
-    /* .signup-content-container{
+    .signup-content-container{
         
         
-        background: antiquewhite;
+        background: beige;
         box-shadow: 4px 4px 15px #ccc;
         margin-left: auto;
         margin-right: auto;
@@ -98,12 +98,13 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-    } */
+    }
     
     .content-wrapper{
         position: relative;
-        margin-top: 1.2rem;
+        margin-top: 1rem;
         width: 100%;
+        margin-bottom: 1.5rem;
     }
     .content-wrapper h2{
         /* padding-bottom: 1rem; */
@@ -121,14 +122,22 @@
   /* -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
   /* width: 85%; */
-  margin: 80px 30px 100px;
+  /* margin: 80px 30px 100px; */
   
     }
     .content-wrapper p{
-        text-align: justify;
+        text-align: center;
         font-weight: bolder;
         font-size: 1rem;
        
+    }
+    .signup-p{
+        text-align: justify !important;
+    }
+    .signup-img-container img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
     }
 }
 
@@ -138,6 +147,7 @@
         /* background: antiquewhite; */
         /* box-shadow: 4px 4px 15px #ccc; */
         box-shadow: 10px 10px 25px #120202;
+        background:beige;
         margin: 0;
         position: absolute;
         top: 50%;
@@ -152,6 +162,50 @@
         font-weight: bold;
         font-size: 1rem;
     }
+    .signup-img-container img{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+    .content-wrapper{
+        position: relative;
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .signup-content-container{
+        /* background: antiquewhite; */
+        /* box-shadow: 4px 4px 15px #ccc; */
+        box-shadow: 10px 10px 25px #120202;
+        background:beige;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 50%;
+       
+    }
+    .content-wrapper{
+        position: relative;
+        margin-top: 1rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .content-wrapper p{
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .signup-img-container img{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+    
 }
 @media screen and (min-width: 1200px){
    
@@ -159,13 +213,13 @@
         /* width:50%;
         margin-left: 20rem;
         position: fixed;
-        background: antiquewhite;
+        
         margin-top: 3rem;
         box-shadow: 4px 4px 15px #ccc; */
         /* background: antiquewhite; */
         box-shadow: 5px 5px 15px #120202;
-        width: auto;
-      
+        width:50%;
+        background:beige;
         /* margin: 0;
         position: absolute;
         top: 50%;
@@ -177,9 +231,19 @@
         
     }
     .content-wrapper p{
-        text-align: justify;
+        text-align: center;
         font-weight: bold;
         font-size: 1rem;
+        margin-top: 0.8rem;
     }
+    .img-overflow{
+        overflow-y: hidden;
+    }
+    .signup-img-container img{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+   
 }
 

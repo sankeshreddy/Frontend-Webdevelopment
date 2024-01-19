@@ -33,7 +33,7 @@
     .showcase-container{
         height: 75vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/book-shelf.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -59,7 +59,7 @@
     .showcase-container{
         height: 75vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/book-shelf.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -111,9 +111,9 @@
 
 @media screen and (min-width: 768px){
     .showcase-container{
-        height: 100vh;
+        height: 60vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/stack.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -137,7 +137,7 @@
     .showcase-container{
         height: 100vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/stacked-books.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;

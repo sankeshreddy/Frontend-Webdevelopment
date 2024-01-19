@@ -9,7 +9,7 @@ const Login= () => {
             <Navbar darkText={true}/>
             <section className="signup-container">
                 <div className='signup-img-container'>
-                    {/* <img src={AuthBgImg} alt="authentication-background" /> */}
+                    <img src={AuthBgImg} alt="authentication-background" />
                 </div>
                 <div className="signup-content-container">
                     <div className="container">
@@ -17,6 +17,7 @@ const Login= () => {
                             {/* <h2>Login</h2> */}
                             <p>Sign in with email and password.</p>
                             <AuthForm className="login-btn" buttonName="Login" />
+                            <p class = "copyright">&copy; 2023 BookStore. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
