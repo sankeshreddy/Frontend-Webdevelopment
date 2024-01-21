@@ -22,7 +22,7 @@ const CartItemsContainer = () => {
             <div className="container">
                  
                 {totalAmount === 0 ? (
-                    <h2>Currently your cart is empty please add some books 😊
+                    <h2>Currently your cart is empty😊
                         {/* <link to="/"className="logo">Book<span className="text-primary">Store</span></link> */}
                     </h2>
                     
@@ -46,7 +46,7 @@ const CartItemsContainer = () => {
                             token={onToken}
                             billingAddress
                         >
-                            <button className="button-primary">Proceed to Checkout</button>
+                            <button className="button-primary">Proceed To Checkout</button>
                         </StripeCheckout>
                     </React.Fragment>
                 )}

@@ -4,6 +4,7 @@ import AuthBgImg from '../../assets/book-sign.jpg';
 import Navbar from '../../components/layouts/navbar/Navbar';
 import AuthForm from '../../components/forms/authForm/AuthForm';
 
+
 const Signup = () => {
     return (
         <React.Fragment>
@@ -25,6 +26,7 @@ const Signup = () => {
                     
                 </div>
                 {/* <p class = "copyright">&copy; 2023 BookStore.All Rights Reserved</p> */}
+               
             </section>
         </React.Fragment>
     )

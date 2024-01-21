@@ -31,7 +31,7 @@
 }
 @media screen and (min-width: 280px) and (max-width: 345px) { 
     .showcase-container{
-        height: 75vh;
+        height: 50vh;
         width: auto;
         background-image: url('../../../assets/books-in-library.jpg');
         position: relative;
@@ -168,7 +168,7 @@
 
 @media screen and (min-width: 1200px){
     .showcase-container{
-        height: 50vh;
+        height: 75vh;
         width: auto;
         background-image: url('../../../assets/Book-Store-in-Hyderabad.webp');
         position: relative;
@@ -194,7 +194,7 @@
 }
 @media screen and (min-width: 1500px){
     .showcase-container{
-        height: 50vh;
+        height: 75vh;
         width: auto;
         background-image: url('../../../assets/landing-page.jpg');
         position: relative;

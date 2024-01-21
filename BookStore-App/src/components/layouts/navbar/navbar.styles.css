@@ -65,9 +65,9 @@
     position: relative;
 }
 
-@media screen and (min-width:280px) and (max-width: 345px){
+@media screen and (min-width:300px) and (max-width: 345px){
     .logo{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         color: #fff;
         text-decoration: none;
         font-family: Chivo Mono;
@@ -76,15 +76,15 @@
     .nav-links, .nav-links-dark{
         color: #fff;
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding-left: 20px;
         transition: 0.2s ease-in;
         cursor: pointer;
     }
     
     .nav-links-dark{
-        color: #333;
-        font-size: 0.6rem;
+        color: #f8f3f3;
+        font-size: 0.7rem;
     }
     .nav-links-container{
         display: flex;
@@ -206,7 +206,7 @@
 }
 @media screen and (min-width:1200px){
     .logo{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #fff;
         text-decoration: none;
         font-family: Chivo Mono;
@@ -216,7 +216,33 @@
         color: #fff;
         text-decoration: none;
         font-size: 1.2rem;
-        padding-left: 20px;
+        padding-left: 2rem;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+    .nav-links-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    /* .nav-links-dark{
+        color: #333;
+    } */
+}
+
+@media screen and (min-width:1500px){
+    .logo{
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: Chivo Mono;
+        font-weight: 700;
+    }
+    .nav-links, .nav-links-dark{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding-left: 2rem;
         transition: 0.2s ease-in;
         cursor: pointer;
     }
