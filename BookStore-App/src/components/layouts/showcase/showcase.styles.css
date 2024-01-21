@@ -33,7 +33,7 @@
     .showcase-container{
         height: 75vh;
         width: auto;
-        background-image: url('../../../assets/book-shelf.jpg');
+        background-image: url('../../../assets/books-in-library.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -57,9 +57,9 @@
 }
 @media screen and (min-width: 350px){
     .showcase-container{
-        height: 75vh;
+        height: 50vh;
         width: auto;
-        background-image: url('../../../assets/book-shelf.jpg');
+        background-image: url('../../../assets/heart-bookshelf.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -111,9 +111,9 @@
 
 @media screen and (min-width: 768px){
     .showcase-container{
-        height: 60vh;
+        height: 50vh;
         width: auto;
-        background-image: url('../../../assets/stack.jpg');
+        background-image: url('../../../assets/creative-bookshelf.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -135,9 +135,9 @@
 @media screen and (min-width: 1024px){
 
     .showcase-container{
-        height: 100vh;
+        height: 40vh;
         width: auto;
-        background-image: url('../../../assets/stacked-books.jpg');
+        background-image: url('../../../assets/books-shelf.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -168,9 +168,9 @@
 
 @media screen and (min-width: 1200px){
     .showcase-container{
-        height: 100vh;
+        height: 50vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/Book-Store-in-Hyderabad.webp');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -194,9 +194,9 @@
 }
 @media screen and (min-width: 1500px){
     .showcase-container{
-        height: 100vh;
+        height: 50vh;
         width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
+        background-image: url('../../../assets/landing-page.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;

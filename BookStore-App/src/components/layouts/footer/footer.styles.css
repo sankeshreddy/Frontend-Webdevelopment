@@ -27,7 +27,7 @@ background: antiquewhite;
 .form-group{
     padding: 0.1rem 0;
     font-weight: bolder;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
 }
 
 .form-label{
@@ -36,13 +36,7 @@ background: antiquewhite;
     padding-bottom: 10px;
 }
 
-.form-input{
-    width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    /* border-radius: 5px; */
-    outline: auto;
-}
+
 
 .form-submit{
    
@@ -109,6 +103,12 @@ background: antiquewhite;
         padding-top: 2rem;
         
     }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        outline: auto;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -145,6 +145,12 @@ background: antiquewhite;
    
         font-size: 1.5rem;
         text-align: center;
+    }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        outline: auto;
     }
 }
 @media screen and (min-width:1024px){
@@ -187,6 +193,12 @@ background: antiquewhite;
         font-size: 1.5rem;
         text-align: center;
     }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        outline: auto;
+    }
 }
 @media screen and (min-width:1200px){
     .copyright{
@@ -219,5 +231,16 @@ background: antiquewhite;
         font-size: 1.5rem;
         text-align: center;
         /* padding-top: 4rem; */
+    }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        outline: auto;
+    }
+    .form-group{
+        padding: 0.1rem 0;
+        font-weight: bolder;
+        margin-top: 1rem;
     }
 }

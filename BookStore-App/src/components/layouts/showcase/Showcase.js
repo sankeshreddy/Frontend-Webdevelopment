@@ -9,16 +9,17 @@ const Showcase = () => {
             <Navbar darkTheme={false}/>
             
             <div className="overlay"></div>
-            {/* <div className="showcase-content">
+            <div className="showcase-content">
                 
-                <h2 className="text-primary showcaseh">
-                For my whole life, my favorite activity was reading.
+                {/* <h2 className="text-primary showcaseh">
+                
+                "Today a reader, tomorrow a leader." – Margaret Fuller
 
-                <br className="author-br"></br> ― Audrey Hepburn</h2>
+                </h2> */}
                 
                 
-                <SearchInputForm darkTheme={ true }/>  
-            </div> */}
+                {/* <SearchInputForm darkTheme={ true }/>   */}
+            </div>
             
         </section>
     )

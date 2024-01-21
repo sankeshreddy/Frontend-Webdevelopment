@@ -21,7 +21,7 @@ const CartItemCard = ({ bookData }) => {
                 <p>{bookData.author_name}</p>
                 <h3 className="cart-item-price">&#8377;{bookData.price}</h3>
 
-                <button onClick={handleRemove} className='delete_btn'>Remove from Cart</button>
+                <button onClick={handleRemove} className='delete_btn'>Remove From Cart</button>
             </div>
         </section>
     )
