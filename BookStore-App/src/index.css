@@ -41,7 +41,7 @@ h1{
 .justify-between{ justify-content: space-between; }
 .align-center{ align-items: center;}
 
-/* .text-primary{ color: var(--primary-color); } */
+.text-primary{ color: var(--primary-color); }
 
 span{
     font-family: Chivo Mono;
@@ -51,6 +51,7 @@ span{
     display: inline-block;
     padding: 1rem 2rem;
     background-color: var(--primary-color-bright);
+    /* background-color: #a04006; */
     color: #fff;
     text-decoration: none;
     margin-top: 1rem;

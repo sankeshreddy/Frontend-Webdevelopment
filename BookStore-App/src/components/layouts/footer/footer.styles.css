@@ -62,7 +62,7 @@ background: antiquewhite;
     font-weight: bold;
 } */
 
-@media screen and (min-width:280px){
+@media screen and (min-width:280px) and (max-width: 345px){
     .copyright{
         
         font-weight: bold;
@@ -101,6 +101,56 @@ background: antiquewhite;
         font-size: 1rem;
         text-align: justify;
         padding-top: 2rem;
+        
+    }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        outline: auto;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:350px){
+    .copyright{
+        
+        font-weight: bold;
+    }
+
+    /* .footer-container p{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        text-align: justify;
+    } */
+    .footer-container p{ 
+        display: flex; 
+        flex-direction: row; 
+        padding-top: 2rem;
+    } 
+    .footer-container p::before, 
+    .footer-container p::after {
+        content: "";
+        /* font-size: 1.2rem;
+        padding-top: 3rem; */
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
+    }
+    .footer-container{
+    
+        padding: 4rem 0;
+    background: center;    
+    }
+    .form-group-btn{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .footer-container h2{
+   
+        font-size: 0.9rem;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 0.9rem;
         
     }
     .form-input{
@@ -158,7 +208,7 @@ background: antiquewhite;
     }
     .footer-form{
         /* padding-top: 2rem; */
-        width: 60%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -200,7 +250,8 @@ background: antiquewhite;
     .footer-container{
     
         padding: 4rem 0;
-    background: center;    
+    background: center; 
+    
     }
     .footer-container h2{
    
@@ -227,8 +278,9 @@ background: antiquewhite;
     }
     .footer-container{
     
-        padding: 4rem 0;
-    background: center;    
+        padding: 0.1rem 0;
+    background: center;  
+      
     }
     .footer-container p{ 
         display: flex; 
@@ -253,7 +305,7 @@ background: antiquewhite;
    
         font-size: 1.5rem;
         text-align: center;
-        /* padding-top: 4rem; */
+        padding-top: 2rem;
     }
     .form-input{
         width: 100%;

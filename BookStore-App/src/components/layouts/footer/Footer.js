@@ -25,10 +25,11 @@ const Footer = () => {
     }
 
     return (
+        
         <section className="footer-container">
             <hr className="footer-hr"></hr>
             <div className="container">
-                <h2>Feel Free To Submit Your Query Here.</h2>
+                <h2>Feel free to submit your query here.</h2>
 
                 <form onSubmit={handleSubmit} ref={form} className="footer-form">
                     <div className="form-group">

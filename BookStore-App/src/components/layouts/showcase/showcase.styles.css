@@ -29,7 +29,7 @@
 .showcase-content span{
     font-family: Chivo Mono;
 }
-@media screen and (min-width: 280px) and (max-width: 345px) { 
+@media screen and (min-width: 280px) and (max-width: 350px) { 
     .showcase-container{
         height: 50vh;
         width: auto;
@@ -55,11 +55,38 @@
         line-break: anywhere;
     }
 }
-@media screen and (min-width: 350px){
+@media screen and (min-width: 350px) and (max-width: 500px){
     .showcase-container{
-        height: 50vh;
+        height: 45vh;
         width: auto;
-        background-image: url('../../../assets/heart-bookshelf.jpg');
+        background-image: url('../../../assets/book-mobile.avif');
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        overflow-y: hidden;
+    }
+    .showcase-content h2{
+        color: #fff;
+        font-size: 0.8rem;
+        text-align: left;
+        line-break: auto;
+    }
+    .showcase-content{
+        
+        position: relative;
+        top: 30%;
+        bottom: 60%;
+        width: 90%;
+        text-align: justify;
+        line-break: anywhere;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px){
+    .showcase-container{
+        height: 45vh;
+        width: auto;
+        background-image: url('../../../assets/antique\ books.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -111,9 +138,9 @@
 
 @media screen and (min-width: 768px){
     .showcase-container{
-        height: 50vh;
+        height: 45vh;
         width: auto;
-        background-image: url('../../../assets/creative-bookshelf.jpg');
+        background-image: url('../../../assets/books-in-library.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -137,7 +164,7 @@
     .showcase-container{
         height: 40vh;
         width: auto;
-        background-image: url('../../../assets/books-shelf.jpg');
+        background-image: url('../../../assets/antique books.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -168,9 +195,9 @@
 
 @media screen and (min-width: 1200px){
     .showcase-container{
-        height: 75vh;
+        height: 50vh;
         width: auto;
-        background-image: url('../../../assets/Book-Store-in-Hyderabad.webp');
+        background-image: url('../../../assets/ancient\ books.jpg');
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -196,10 +223,10 @@
     .showcase-container{
         height: 75vh;
         width: auto;
-        background-image: url('../../../assets/landing-page.jpg');
+        background-image: url('../../../assets/vintage\ books.png');
         position: relative;
-        display: flex;
-        justify-content: space-around;
+        /* display: flex;
+        justify-content: space-around; */
     }
     .showcase-content h2{
         color: #fff;
