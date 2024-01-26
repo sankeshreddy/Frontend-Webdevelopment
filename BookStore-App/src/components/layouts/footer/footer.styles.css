@@ -19,7 +19,7 @@ background: antiquewhite;
 }
 
 .footer-form{
-    /* padding-top: 2rem; */
+   
     width: 100%;
     
 }
@@ -55,10 +55,7 @@ background: antiquewhite;
     
     background-color: #222;
 }
-/* .copyright{
-    text-align: center;
-    font-weight: bold;
-} */
+
 
 @media screen and (min-width:280px) and (max-width: 350px){
     .copyright{
@@ -66,11 +63,6 @@ background: antiquewhite;
         font-weight: bold;
     }
 
-    /* .footer-container p{
-        font-size: 1.2rem;
-        margin-top: 2rem;
-        text-align: justify;
-    } */
     .footer-container p{ 
         display: flex; 
         flex-direction: row; 
@@ -80,8 +72,6 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
@@ -116,11 +106,6 @@ background: antiquewhite;
         font-weight: bold;
     }
 
-    /* .footer-container p{
-        font-size: 1.2rem;
-        margin-top: 2rem;
-        text-align: justify;
-    } */
     .footer-container p{ 
         display: flex; 
         flex-direction: row; 
@@ -129,8 +114,6 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
@@ -150,7 +133,6 @@ background: antiquewhite;
         text-align: center;
         padding-top: 1.5rem;
         padding-bottom: 0.9rem;
-        
     }
     .form-input{
         width: 100%;
@@ -165,11 +147,6 @@ background: antiquewhite;
         font-weight: bold;
     }
 
-    /* .footer-container p{
-        font-size: 1.2rem;
-        margin-top: 2rem;
-        text-align: justify;
-    } */
     .footer-container p{ 
         display: flex; 
         flex-direction: row; 
@@ -178,14 +155,11 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
     }
     .footer-container{
-    
         padding: 4rem 0;
     background: center;    
     }
@@ -214,11 +188,6 @@ background: antiquewhite;
         font-weight: bold;
         font-size: 2rem;
     }
-
-    /* .footer-container p{
-        font-size: 1rem;
-        margin-top: 1rem;
-    } */
     .footer-container p{ 
         display: flex; 
         flex-direction: row; 
@@ -231,8 +200,6 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
@@ -254,7 +221,6 @@ background: antiquewhite;
         outline: auto;
     }
     .footer-form{
-        /* padding-top: 2rem; */
         width: 70%;
         margin-left: auto;
         margin-right: auto;
@@ -266,11 +232,6 @@ background: antiquewhite;
         font-weight: bold;
         font-size: 2rem;
     }
-
-    /* .footer-container p{
-        font-size: 1rem;
-        margin-top: 1rem;
-    } */
     .form-group{
         padding: 0.1rem 0;
         font-weight: bolder;
@@ -288,14 +249,11 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
     }
     .footer-container{
-    
         padding: 4rem 0;
     background: center; 
     
@@ -313,7 +271,6 @@ background: antiquewhite;
         outline: auto;
     }
     .footer-form{
-        /* padding-top: 2rem; */
         width: 55%;
         margin-left: auto;
         margin-right: auto;
@@ -347,8 +304,6 @@ background: antiquewhite;
     .footer-container p::before, 
     .footer-container p::after {
         content: "";
-        /* font-size: 1.2rem;
-        padding-top: 3rem; */
         flex: 1 1;
         border-bottom: 2px solid #000;
         margin: auto;
@@ -372,7 +327,6 @@ background: antiquewhite;
         margin-top: 1rem;
     }
     .footer-form{
-        /* padding-top: 2rem; */
         width: 55%;
         margin-left: auto;
         margin-right: auto;

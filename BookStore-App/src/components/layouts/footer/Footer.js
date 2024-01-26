@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './footer.styles.css';
 import emailjs from '@emailjs/browser';
 
+/*code to display footer */
 const Footer = () => {
     const form = useRef();
     const serviceId = "service_44botzw";
