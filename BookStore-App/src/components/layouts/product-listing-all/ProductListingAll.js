@@ -4,6 +4,7 @@ import './productListingAll.styles.css';
 import ProductListingCard from '../../cards/product-listing-card/ProductListingCard';
 import { BookData } from '../../../util/BookData';
 
+/* code to display product details */
 const ProductListingAll = () => {
     return (
         <section className="product-listing-all-container">
