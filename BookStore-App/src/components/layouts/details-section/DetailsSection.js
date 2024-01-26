@@ -4,6 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { BookData } from '../../../util/BookData';
 import { UserContext, CartContext } from '../../../App';
 
+/* code to add product to the cart */
 const DetailsSection = () => {
     const { id } = useParams();
     const [bookData, setBookData] = useState({});
