@@ -37,7 +37,6 @@ background: antiquewhite;
 }
 
 
-
 .form-submit{
    
     display: inline-block;
@@ -50,7 +49,6 @@ background: antiquewhite;
     border: none;
     font-family: Chivo Mono;
     font-size: 1rem;
-    
 }
 
 .form-submit:hover{
@@ -62,7 +60,7 @@ background: antiquewhite;
     font-weight: bold;
 } */
 
-@media screen and (min-width:280px) and (max-width: 345px){
+@media screen and (min-width:280px) and (max-width: 350px){
     .copyright{
         
         font-weight: bold;
@@ -77,6 +75,7 @@ background: antiquewhite;
         display: flex; 
         flex-direction: row; 
         padding-top: 2rem;
+        font-size: 0.8rem;
     } 
     .footer-container p::before, 
     .footer-container p::after {
@@ -98,8 +97,8 @@ background: antiquewhite;
     }
     .footer-container h2{
    
-        font-size: 1rem;
-        text-align: justify;
+        font-size: 0.7rem;
+        text-align: center;
         padding-top: 2rem;
         
     }
@@ -111,7 +110,7 @@ background: antiquewhite;
     }
 }
 
-@media screen and (min-width:350px){
+@media screen and (min-width:350px) and (max-width: 500px){
     .copyright{
         
         font-weight: bold;
@@ -160,7 +159,55 @@ background: antiquewhite;
         font-size: 1rem;
     }
 }
+@media screen and (min-width:500px) and (max-width: 768px){
+    .copyright{
+        
+        font-weight: bold;
+    }
 
+    /* .footer-container p{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        text-align: justify;
+    } */
+    .footer-container p{ 
+        display: flex; 
+        flex-direction: row; 
+        padding-top: 2rem;
+    } 
+    .footer-container p::before, 
+    .footer-container p::after {
+        content: "";
+        /* font-size: 1.2rem;
+        padding-top: 3rem; */
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
+    }
+    .footer-container{
+    
+        padding: 4rem 0;
+    background: center;    
+    }
+    .form-group-btn{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .footer-container h2{
+   
+        font-size: 1.3rem;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 0.9rem;
+        
+    }
+    .form-input{
+        width: 100%;
+        padding: 1rem;
+        outline: auto;
+        font-size: 1rem;
+    }
+}
 @media screen and (min-width:768px){
     .copyright{
         text-align: center;
@@ -257,6 +304,7 @@ background: antiquewhite;
    
         font-size: 1.5rem;
         text-align: center;
+        padding-top: 2rem;
     }
     .form-input{
         width: 100%;
@@ -269,6 +317,11 @@ background: antiquewhite;
         width: 55%;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .form-group-btn{
+        text-align: center;
+        padding-top: 2rem;
     }
 }
 @media screen and (min-width:1200px){

@@ -9,7 +9,7 @@
     padding-bottom: 1rem;
 }
 
-@media screen and (min-width:280px) and (max-width: 345px){
+@media screen and (min-width:280px) and (max-width: 350px){
     .search-container{
         width: 90%;
         margin: auto;
@@ -24,7 +24,7 @@
         width: 90%;
         margin: auto;
         padding-top: 5%;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
 
