@@ -2,7 +2,7 @@ import React from "react";
 import './productListingCard.styles.css';
 import { Link } from 'react-router-dom';
 
-/* code to show details of the book */
+/* code to show product details on card */
 const ProductListingCard = ({ bookData }) => {
     return (
         <div className="product-listing-card">
