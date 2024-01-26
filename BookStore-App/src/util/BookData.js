@@ -189,4 +189,14 @@ export const BookData = [
         author_name: "Purnaprajna Dasa",
         price: "198",
     },
+    {
+        id: 19,
+        book_name: "The Chronicles of Hanuman ",
+        book_description: "Lord Hanuman, the Monkey God and one of the most fascinating characters in the Ramayana, personifies the true superhero-philosopher. He is Lord Rama’s most trusted ally who embodies the virtues of a sincere devotee, the fearless fighter who sets the city of Lanka ablaze with his burning tail, the humble messenger who informs Mother Sita of Lord Rama’s victory over Ravana, the noble fellow warrior who uproots Dronagiri, a mountain of herbs, to save Lakshmana’s life. Above all, he is a perfect blend of intelligence and humility. The Chronicles of Hanuman, an engaging and inspiring bildungsroman of the Monkey God, is also replete with interesting folk tales, local lore about Hanuman temples across India and Hanuman prayers, making this book a reader’s delight.",
+        book_url: "https://m.media-amazon.com/images/I/71LPNWPzV6L._SY466_.jpg",
+        print_length: "278 pages",
+        language: "English",
+        author_name: "Shuba Vilas",
+        price: "252",
+    },
 ]
