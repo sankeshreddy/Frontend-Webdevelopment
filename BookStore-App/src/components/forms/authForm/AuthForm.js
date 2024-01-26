@@ -39,6 +39,7 @@ const AuthForm = ({ buttonName }) => {
     }
 
     return (
+        
         <form onSubmit={handleSubmit}>
            {buttonName === "Sign Up" && (
                 <div className='form-group'>

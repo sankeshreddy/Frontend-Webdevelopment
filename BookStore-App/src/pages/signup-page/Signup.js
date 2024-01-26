@@ -8,8 +8,10 @@ import AuthForm from '../../components/forms/authForm/AuthForm';
 const Signup = () => {
     return (
         <React.Fragment>
+            
             <Navbar darkText={true}/>
             <section className="signup-container img-overflow">
+            <Navbar darkTheme={ false} />
                 <div className='signup-img-container'>
                     <img src={AuthBgImg} alt="authentication-background" />
                 </div>

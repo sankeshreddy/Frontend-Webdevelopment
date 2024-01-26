@@ -200,6 +200,7 @@
         background-image: url('../../../assets/ancient\ books.jpg');
         position: relative;
         display: flex;
+        margin-top: 2rem;
         justify-content: space-around;
         
     }
@@ -225,6 +226,7 @@
         width: auto;
         background-image: url('../../../assets/vintage\ books.png');
         position: relative;
+        margin-top: 2rem;
         /* display: flex;
         justify-content: space-around; */
     }

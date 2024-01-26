@@ -244,7 +244,7 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         width: 65%;
-        height: 35vh;
+        
     }
     .content-wrapper p{
         text-align: center;
@@ -319,7 +319,7 @@
         background:ghostwhite;
         margin: 0;
         position: absolute;
-        top: 42%;
+        /* top: 42%; */
         /* left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); */
