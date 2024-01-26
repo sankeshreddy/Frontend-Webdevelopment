@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
+/* code to scroll bar*/
 const ScrollToTop = ({ children }) => {
     const location = useLocation();
     
