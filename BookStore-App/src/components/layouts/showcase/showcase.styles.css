@@ -1,30 +1,12 @@
-/* .showcase-container{
-    height: 75vh;
-    width: auto;
-    background-image: url('../../../assets/showcase-bg.jpg');
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-} */
 .author-br{
     margin-top: 2rem;
 }
-/* .overlay{
-    height: 100%;
-    width: fit-content;
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-} */
-
-
 
 .showcase-content h2{
     color: #fff;
 
     font-size: 3rem;
 }
-
 
 .showcase-content span{
     font-family: Chivo Mono;
@@ -56,6 +38,7 @@
     }
 }
 @media screen and (min-width: 350px) and (max-width: 500px){
+
     .showcase-container{
         height: 45vh;
         width: auto;
@@ -109,33 +92,6 @@
     }
 }
 
-/* @media screen and (min-width:413px){
-    .showcase-container{
-        height: 75vh;
-        width: auto;
-        background-image: url('../../../assets/showcase-bg.jpg');
-        position: relative;
-        display: flex;
-        justify-content: space-around;
-        overflow-y: hidden;
-    }
-    .showcase-content h2{
-        color: #fff;
-        font-size: 1.2rem;
-        text-align: center;
-        line-break: auto;
-    }
-    .showcase-content{
-        
-        position: relative;
-        top: 30%;
-        bottom: 60%;
-        width: 90%;
-        text-align: justify;
-        line-break: anywhere;
-    }
-} */
-
 @media screen and (min-width: 768px){
     .showcase-container{
         height: 45vh;
@@ -170,23 +126,14 @@
         justify-content: space-around;
         overflow-y: hidden;
     }
-    /* .showcase-content h2{
-        color: #fff;
-        font-size: 1.3rem;
-    } */
+    
     .showcase-content h2{
         color: #fff;
         font-size: 1.5rem;
         padding-top: 5rem; 
         text-align: center;
-        
     }
-    /* .showcase-content{
-        width: fit-content;
-        z-index: 1;
-        margin: 10rem;
-        position: absolute;
-    } */
+    
     .showcase-content{
         width: 60%;
         top:10%
@@ -209,12 +156,6 @@
         font-size: 1.5rem;
        text-align: justify;
     }
-    /* .showcase-content{
-        width: fit-content;
-        z-index: 1;
-        margin: 13rem;
-        position: absolute;
-    } */
     .showcase-content{
         width: 50%;
         top:10%
@@ -227,26 +168,17 @@
         background-image: url('../../../assets/vintage\ books.png');
         position: relative;
         margin-top: 2rem;
-        /* display: flex;
-        justify-content: space-around; */
     }
     .showcase-content h2{
         color: #fff;
         font-size: 1.3rem;
         margin-right: 15rem;
     }
-    /* .showcase-content{
-        width: fit-content;
-        z-index: 1;
-        margin: 13rem;
-        position: absolute;
-    } */
+    
     .showcase-content{
-       
+        
         width: fit-content;
-        top:20%;
-        
-        
+        top:20%; 
 } 
 
 }
