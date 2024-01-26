@@ -5,7 +5,7 @@ import { CartContext } from '../../../App';
 import StripeCheckout from "react-stripe-checkout";
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-
+/* code to implement cart checkout, total amout and payment details */
 const CartItemsContainer = () => {
     const { cartItems, totalAmount } = useContext(CartContext);
     const stripeKey = 'pk_test_51OQreySGRRWwGUlLComa3ZZPO3rsxGHlefaAdZWOVAENq55kCkArjiH29MBE8rsX9sLLhzlKUmRzkso8vr6U3gH300JRd8k4RC';
@@ -22,7 +22,7 @@ const CartItemsContainer = () => {
             <div className="container">
                  
                 {totalAmount === 0 ? (
-                    <h2>Currently your cart is empty😊
+                    <h2> your cart is empty😊
                         {/* <link to="/"className="logo">Book<span className="text-primary">Store</span></link> */}
                     </h2>
                     
