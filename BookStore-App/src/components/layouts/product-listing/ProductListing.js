@@ -2,7 +2,7 @@ import React from 'react';
 import './productListing.styles.css';
 import ProductListingCard from '../../cards/product-listing-card/ProductListingCard';
 import { BookData } from '../../../util/BookData';
-
+/* code to show some books on homepage  */
 const ProductListing = () => {
     return(
         <div className="product-listing-container">
