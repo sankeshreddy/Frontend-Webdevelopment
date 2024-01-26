@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import './cart-item-card.styles.css';
 import { CartContext } from '../../../App';
 
+/*Code to remove cart functionality*/ 
 const CartItemCard = ({ bookData }) => {
 
     const { cartItems, setCartItems } = useContext(CartContext);
