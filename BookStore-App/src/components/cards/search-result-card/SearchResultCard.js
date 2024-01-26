@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './searchresultcard.styles.css';
 
+/* code to display searched books*/ 
 const SearchResultCard = ({ bookData }) => {
     return (
         <section className="cart-item">
