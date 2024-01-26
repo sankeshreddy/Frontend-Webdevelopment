@@ -1,5 +1,4 @@
 .navbar-container{
-    /* position: absolute; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -90,8 +89,6 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        
-        
     }
 }
 @media screen and (min-width:350px) and (max-width: 500px){
@@ -112,10 +109,6 @@
         font-weight: bolder;
     }
     
-    /* .nav-links-dark{
-        color: #333;
-        font-size: 0.6rem;
-    } */
     .nav-links-container{
         display: flex;
         align-items: center;
@@ -142,10 +135,6 @@
         font-weight: bolder;
     }
     
-    /* .nav-links-dark{
-        color: #333;
-        font-size: 0.6rem;
-    } */
     .nav-links-container{
         display: flex;
         align-items: center;
@@ -154,35 +143,7 @@
         
     }
 }
-/* @media screen and (min-width:413px){
-    .logo{
-        font-size: 1rem;
-        color: #fff;
-        text-decoration: none;
-        font-family: Chivo Mono;
-        font-weight: 700;
-    }
-    .nav-links, .nav-links-dark{
-        color: #fff;
-        text-decoration: none;
-        font-size: 1rem;
-        padding-left: 20px;
-        transition: 0.2s ease-in;
-        cursor: pointer;
-    }
-    
-    .nav-links-dark{
-        color: #333;
-        font-size: 0.8rem;
-    }
-    .nav-links-container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        
-        
-    }
-} */
+
 @media screen and (min-width:768px){
     .logo{
         font-size: 1.1rem;
@@ -205,9 +166,6 @@
         align-items: center;
         justify-content: flex-end;
     }
-    /* .nav-links-dark{
-        color: #333;
-    } */
 }
 @media screen and (min-width:1024px){
     .logo{
@@ -230,9 +188,6 @@
         align-items: center;
         justify-content: flex-end;
     }
-    /* .nav-links-dark{
-        color: #333;
-    } */
 }
 @media screen and (min-width:1200px){
     .logo{
@@ -255,9 +210,6 @@
         align-items: center;
         justify-content: flex-end;
     }
-    /* .nav-links-dark{
-        color: #333;
-    } */
 }
 
 @media screen and (min-width:1500px){
@@ -281,9 +233,7 @@
         align-items: center;
         justify-content: flex-end;
     }
-    /* .nav-links-dark{
-        color: #333;
-    } */
+    
 }
 
 

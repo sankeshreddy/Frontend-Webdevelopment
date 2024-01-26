@@ -6,6 +6,8 @@ import {ReactComponent as Cart} from '../../../assets/cart.svg';
 import { getAuth, signOut } from "firebase/auth";
 import app from '../../../firebase/Firebase';
 
+/* code to implement navigation bar */
+
 const Navbar = ({ darkTheme, darkText }) => {
 
     const user = useContext(UserContext);
