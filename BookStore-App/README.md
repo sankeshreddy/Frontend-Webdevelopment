@@ -23,6 +23,10 @@ Firebase is a Backend-as-a-Service (BaaS) app development platform that provides
 Here we use stripe API for secured payment
 
 Stripe provides a set of programmable APIs and tools to let you facilitate payments and pay out sellers globally.
+# Set up instructions
+
+* Download dependencies by running npm install
+* Start up the app using npm start
 
 # Getting Started with Create React App
 
