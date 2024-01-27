@@ -2,7 +2,7 @@ import React from 'react';
 import AuthBgImg from '../../assets/book-sign.jpg';
 import Navbar from '../../components/layouts/navbar/Navbar';
 import AuthForm from '../../components/forms/authForm/AuthForm';
-
+//login form
 const Login= () => {
     return (
         <React.Fragment>
