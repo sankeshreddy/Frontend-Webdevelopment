@@ -2,7 +2,7 @@ import React from "react";
 import Showcase from "../../components/layouts/showcase/Showcase";
 import ProductListing from "../../components/layouts/product-listing/ProductListing";
 import Footer from '../../components/layouts/footer/Footer';
-
+//home page code
 const HomePage = () => {
     return (
         <section>
