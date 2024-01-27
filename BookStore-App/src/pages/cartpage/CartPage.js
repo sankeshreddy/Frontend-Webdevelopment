@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/layouts/navbar/Navbar";
 import Footer from "../../components/layouts/footer/Footer";
 import CartItemsContainer from "../../components/layouts/cart-items-container/CartItemsContainer";
-
+/* code to display cart page */
 const CartPage = () => {
     return (
         <section>
