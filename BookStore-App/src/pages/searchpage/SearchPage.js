@@ -6,6 +6,7 @@ import './searchpage.styles.css';
 import { BookData } from '../../util/BookData';
 import SearchResultCard from '../../components/cards/search-result-card/SearchResultCard';
 
+/* code to implement search result based on book name */
 const SearchPage = () => {
     const location = useLocation();
     const [searchResult, setSearchResult] = useState([]);
