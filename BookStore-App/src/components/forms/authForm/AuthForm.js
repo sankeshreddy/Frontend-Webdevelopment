@@ -4,6 +4,7 @@ import app from '../../../firebase/Firebase';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import './authForm.css';
 
+// sign in and sign up authentication
 const AuthForm = ({ buttonName }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
