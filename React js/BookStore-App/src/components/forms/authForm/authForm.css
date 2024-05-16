@@ -1,0 +1,9 @@
+.form-label{
+    display:inline-block;
+    padding-bottom: 10px;
+}
+
+.btnsign{
+    text-align: center;
+    font-size: 0.5rem;
+}

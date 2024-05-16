@@ -1,0 +1,51 @@
+.search-container {
+  width: 40%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.search-container h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 280px) and (max-width: 350px) {
+  .search-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .search-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .search-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .search-container {
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,205 @@
+.cart-item{
+    display: flex;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 5px solid #555;  
+}
+.h2-content{
+    text-align: center;
+}
+.cart-item-img{
+    width: 6rem
+}
+
+.cart-item-content-container p{
+    padding-top: 8px;
+}
+
+.cart-item-price{
+    padding-top: 8px;
+    color: var(--primary-color-bright);
+}
+
+.delete_btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 1rem;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+.delete_btn:hover{
+    background-color: #555;
+}
+
+@media screen and (min-width:280px) and (max-width: 350px) {
+    .cart-item{
+        display: block;
+        padding: 2rem;
+        margin: 2rem 0;
+        border: 5px solid #555;
+    }
+    .h2-content{
+        font-size: 0.4rem;
+    }
+    .cart-item-content-container{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+@media screen and (min-width:350px) and (max-width:500px){
+    .cart-item{
+        display: block;
+        padding: 2rem;
+        margin: 2rem 0;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .h2-content{
+        font-size: 0.8rem;
+    }
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:768px){
+    .cart-item{
+        display: block;
+        padding: 2rem;
+        margin: 2rem 0;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        display: block;
+        padding-top: 1rem;
+        text-align: center;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h2-content{
+        font-size: 1rem;
+    }
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+}
+@media screen and (min-width:768px) {
+    
+    .cart-item{
+        display: table;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        padding-top: 1rem;
+        text-align: center;
+        display: block;
+    }
+    .h2-content{
+        font-size: 1.2rem;
+    }
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+@media screen and (min-width:1024px) {
+    
+    .cart-item{
+        display: table;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .h2-content{
+        font-size: 1.2rem;
+    }
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .cart-item{
+        display: table;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .h2-content{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .cart-item{
+        display: table;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #555;
+        
+    }
+    .cart-item-content-container{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .h2-content{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cart-item-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+}
