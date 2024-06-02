@@ -14,3 +14,4 @@ packages to install
 
 fonts used
 outfit fonts
+CoinGeko API
