@@ -6,8 +6,10 @@ const Coin = () => {
 
   const {coinId} = useParams();
   const [coinData, setCoinData] = useState();
+  const [historicalData, setHistoricalData] = useState();
   const {currency} = useContext(CoinContext)
 
+ 
   const fetchCoinData = async ()=>{
     const options = {
       method: 'GET',
@@ -20,11 +22,23 @@ const Coin = () => {
       .catch(err => console.error(err));
   }
 
+  const fetchHistoricalData = async ()=>{
+    const options = {
+      method: 'GET',
+      headers: {accept: 'application/json', 'x-cg-pro-api-key': 'CG-EHnAD4K2uSLbUr7aK175RupR'}
+    };
+    
+    fetch(`https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${currency.name}&days=10&interval=daily`, options)
+      .then(response => response.json())
+      .then(response => setHistoricalData(response))
+      .catch(err => console.error(err));
+  }
   useEffect(()=>{
     fetchCoinData()
+    fetchHistoricalData()
   },[currency])
 
-  if(coinData){
+  if(coinData && historicalData){
 
     return (
       <div className='coin'>
