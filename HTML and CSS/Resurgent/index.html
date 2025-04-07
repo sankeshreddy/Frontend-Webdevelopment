@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resurgent Clone</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/assets/resurgent logo.webp" alt="Logo" />
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="#">Room Configurator</a></li>
+        <li class="dropdown">
+          <a href="#">Solutions <i class="fas fa-chevron-down chevron"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Corporate</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Healthcare</a></li>
+            <li><a href="#">Public Sector</a></li>
+            <li><a href="#">Retail</a></li>
+            <li><a href="#">Residential</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Products <i class="fas fa-chevron-down chevron"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Microsoft Surface Hub 2S</a></li>
+            <li><a href="#">Samsung Flip</a></li>
+            <li><a href="#">Microsoft Teams</a></li>
+            <li><a href="#">Jabra PanaCast</a></li>
+            <li><a href="#">PADS4 Digital Signage</a></li>
+            <li><a href="#">Crestron Flex</a></li>
+            <li><a href="#">Surge+</a></li>
+            <li><a href="#">AirServer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Brands <i class="fas fa-chevron-down chevron"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Microsoft Teams Rooms</a></li>
+            <li><a href="#">Cisco</a></li>
+            <li><a href="#">Jabra</a></li>
+            <li><a href="#">Logitech</a></li>
+            <li><a href="#">Zoom Rooms</a></li>
+            <li><a href="#">HP</a></li>
+            <li><a href="#">Yealink</a></li>
+            <li><a href="#">SIMStation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Company <i class="fas fa-chevron-down chevron"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">PSNI Global Alliance</a></li>
+            <li><a href="#">Our Culture</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Success Stories</a></li>
+      </ul>
+      <a href="#" class="contact-btn">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-heading animate-fade">
+        <h2>About Us</h2>
+        <p id="typewriter-text">Pioneering the future
+          in integrated audiovisual
+          communication.</p>
+      </div>
+      <div class="about-content animate-fade">
+        <div class="about-text">
+          <h3>Established in 2008</h3>
+          <p>B. Mahadevan and S. Sanjeev decide it's time to make communication better and simpler. And—voila!—Resurgent is born in Bangalore.</p>
+          <h3>Today</h3>
+          <p>Resurgent is now present across India and has over 80 dedicated employees in its family.</p>
+        </div>
+        <div class="about-image">
+          <img src="/assets/team.webp" alt="About Resurgent" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="certificates-section" id="certifications">
+    <div class="certificates-wrapper">
+      <div class="cert-text">
+        <h2>Certifications</h2>
+        <p>
+          Our technical team regularly trains with leading audiovisual experts and associations
+          to stay at the forefront of innovation and maintain international service standards.
+        </p>
+      </div>
+
+      <div class="cert-logos-grid">
+        <div class="cert-box"><img src="assets/cts-d.webp" alt="CTS-D" /></div>
+        <div class="cert-box"><img src="assets/psni-global.webp" alt="PSNI Global Deployment" /></div>
+        <div class="cert-box"><img src="assets/pmi.webp" alt="AQAV Commercial Member" /></div>
+        <div class="cert-box"><img src="assets/av9000.webp" alt="PMI" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="vision-mission-section">
+    <div class="vision-mission-container">
+      
+      <!-- Vision -->
+      <div class="card animate-on-scroll">
+        <h2 class="card-title">Vision</h2>
+        <p>
+          To equip our domestic and global customers with best-in-class technology integrations, 
+          ensuring future-readiness and helping meet their infrastructure and aesthetic goals.
+        </p>
+      </div>
+  
+      <!-- Mission -->
+      <div class="card animate-on-scroll">
+        <h2 class="card-title">Mission</h2>
+        <p>
+          Leverage decades of expertise and market leadership in the audiovisual, information 
+          communication and automation technology domains to provide our customers with the latest 
+          and the best possible solutions based on their infrastructure, needs and goals.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="affiliations-section">
+    <h2 class="affiliations-heading">Our affiliations</h2>
+    <p class="affiliations-subtext">
+      Memberships in the world’s leading alliances and trade associations aren’t just a recognition of the commitment and expertise that we bring to every project; they also help us augment our skills and network to offer greater value to our clients.
+    </p>
+  
+    <div class="affiliations-container">
+      <div class="affiliation-card animate-on-scroll">
+        <img src="assets/psni-1.webp" alt="PSNI Logo" class="affiliation-logo" />
+        <p class="affiliation-description">
+          PSNI is the first and foremost worldwide alliance of audiovisual and UCC experts. The elite partnership offers customers global best practices alongside local deployment and support, and serves as an assurance of the best quality and processes.
+        </p>
+      </div>
+  
+      <div class="affiliation-card animate-on-scroll">
+        <img src="assets/avixa.webp" alt="AVIXA Logo" class="affiliation-logo" />
+        <p class="affiliation-description">
+          The Audiovisual and Integrated Experience Association (AVIXA) is the international trade alliance that offers market intelligence, training and certifications in the latest technological developments to its members. Our team regularly trains with AVIXA in order to bring the latest know-how and highest standards to every project.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- footer.html -->
+<link rel="stylesheet" href="footer.css">
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <!-- Left Section -->
+      <div class="footer-section talk-section">
+        <h2>LET'S TALK</h2>
+
+        <button class="enquire-btn">Enquire Now →</button>
+
+        <h3>Connect with us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <h3>Affiliate Partner With</h3>
+        <div class="affiliates">
+          <img src="assets/avixa.webp" alt="AVIXA" />
+          <img src="assets/psni-1.webp" alt="PSNI" />
+        </div>
+      </div>
+
+      <!-- Link Columns -->
+      <div class="footer-section link-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">PSNI- Global Alliance</a></li>
+          <li><a href="#">Our Culture</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Success Stories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section link-section">
+        <h4>Sectors</h4>
+        <ul>
+          <li><a href="#">Corporate</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Healthcare</a></li>
+          <li><a href="#">Public Sector</a></li>
+          <li><a href="#">Retail</a></li>
+          <li><a href="#">Residential</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section link-section">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#">Microsoft Surface Hub 2S</a></li>
+          <li><a href="#">Samsung Flip</a></li>
+          <li><a href="#">Microsoft Teams</a></li>
+          <li><a href="#">Jabra PanaCast</a></li>
+          <li><a href="#">PADS4 Digital Signage</a></li>
+          <li><a href="#">Crestron Flex</a></li>
+          <li><a href="#">Surge+</a></li>
+          <li><a href="#">AirServer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section link-section">
+        <h4>Brands</h4>
+        <ul>
+          <li><a href="#">Microsoft Teams Rooms</a></li>
+          <li><a href="#">Cisco</a></li>
+          <li><a href="#">Jabra</a></li>
+          <li><a href="#">Logitech</a></li>
+          <li><a href="#">Zoom Rooms</a></li>
+          <li><a href="#">HP</a></li>
+          <li><a href="#">Yealink</a></li>
+          <li><a href="#">SIMStation</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="footer-bottom">
+      <p>&copy; 2024 Resurgent. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookies Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="whatsapp-icon">
+    <a href="https://api.whatsapp.com/send/?phone=%2B919686190157&text=Hi%2C+I+am+looking+for+AV+solutions..&type=phone_number&app_absent=0" target="_blank">
+    <img src="assets/whatsapp-logo.webp" alt="WhatsApp"> </a>
+  </div>
+</footer>
+
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
